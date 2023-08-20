@@ -1,0 +1,57 @@
+/* Center the form and set its width */
+form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* Add padding and border to the form */
+form {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Add margin and padding to the input fields */
+form input[type="text"],
+form input[type="password"] {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Add focus styles to the input fields */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the reset button */
+form button[type="reset"] {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Style the error message */
+form .error {
+  color: #e74c3c;
+  margin-top: 10px;
+}

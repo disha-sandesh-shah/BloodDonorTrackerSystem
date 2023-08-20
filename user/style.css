@@ -1,0 +1,68 @@
+form#frmreg {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-group-addon {
+  background-color: #d9d9d9;
+  color: #333;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  padding: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.input-group input[type=text], .input-group select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.input-group input[type=radio] {
+  margin: 10px;
+}
+
+.input-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M30 6 L16 20 10 14'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: auto 50%;
+  padding-right: 30px;
+}
+
+button[type=submit], button[type=reset] {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+  .input-group input[type=text], .input-group select {
+    border-radius: 4px;
+  }
+  .input-group-addon {
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+}
